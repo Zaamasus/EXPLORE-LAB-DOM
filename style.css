@@ -27,6 +27,14 @@ body{
   font-style: bold;
 }
 
+.container{
+
+}
+
+.grid{
+  
+}
+
 .title{
   font-size: 2.125rem;
   line-height: 2.75rem;
@@ -92,6 +100,12 @@ section .hero-section {
 section .hero-section h1{
 
   margin-bottom: 1rem;
+}
+
+section .hero-section h2{
+
+  margin-bottom: 1rem ;
+
 }
 section .hero-section p{
 
