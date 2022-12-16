@@ -193,7 +193,7 @@ section .hero-section img{
   padding-top: 20rem;
   text-align: center;
   background-color:#F7F9F9;
-  margin-bottom:6.25rem;
+  padding-bottom:6.25rem;
 }
 .services-titulo h1{
 
@@ -231,6 +231,24 @@ section .hero-section img{
 
 
 /* =========SOBRE NOS=======  */
+.sobre-nos .sobre-title{
+padding-top: 6.25rem;
+}
+
+.sobre-nos .sobre-title h1{
+margin-bottom: 1.5rem;
+text-align: left;
+font-size: 1.875rem;
+}
+.sobre-nos .sobre-title h2{
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.sobre-nos .sobre-title p{
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
 
 
 
