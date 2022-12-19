@@ -53,6 +53,10 @@ body{
 
 
 }
+
+.section{
+  margin-bottom: 6.25rem;
+}
 .heat{
   font-weight: 700;
   font-style: normal;
@@ -249,6 +253,28 @@ font-size: 1.875rem;
   margin-bottom: 1.5rem;
   text-align: left;
 }
+
+/* MODAL */
+.swiper {
+  width: 20.4375rem;
+  height: 17.625rem;
+}
+
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: rgba(0, 133, 111, 0.15);
+  mix-blend-mode: color;
+  border-radius: 20px;
+
+}
+.swiper-slide{
+  object-fit: cover;
+}
+
+
+
 
 
 
