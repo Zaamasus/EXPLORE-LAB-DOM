@@ -13,6 +13,8 @@
       rel="stylesheet"
     />
     <!-- STYLES -->
+    <!-- FONTES -->
+    <link rel="stylesheet" href="src/FONTE/style.css">
     <!-- Swiper -->
     <link
       rel="stylesheet"
@@ -25,17 +27,37 @@
     <title>DoctorCare</title>
   </head>
   <body>
-    <header id="header">
-      <div class="logo">
+
+    <header id="header" >
+
+      <nav class="container ">
+
+
+      <div class="logo" id="home">
         <h1>Doctor <span>Care</span></h1>
       </div>
 
-      <div class="menu">
-        <i> <img src="src/icons/Icon.svg" alt="" /></i>
+      <!-- MENU -->
+
+      <div class="menu" >
+
+        <ul class="grid">
+          <li><a class="title-menu" href="#home">Início</a></li>
+          <li><a class="title-menu" href="#services">Serviçoes</a></li>
+          <li><a class="title-menu" href="#home">Sobre nos</a></li>
+          <li><a class="title-menu" href="#home">Contato</a></li>
+        </ul>
+
+        <div class="toggle icon-Icon"></div>
+        <div class="toggle icon-Close"></div>
+
+
       </div>
+    </nav>
     </header>
 
     <main>
+      
       <section class="section grid">
         <div class="hero-section">
           <h2 class="heat">BOAS-VINDAS A DOCTORCARE</h2>

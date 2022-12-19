@@ -29,9 +29,7 @@ body{
   font-style: bold;
 }
 
-.container{
 
-}
 
 .grid{
   margin-left: 1.5rem;
@@ -90,22 +88,14 @@ color: #495057;
 
 /* HEADER */
 
-#header{
-  margin-bottom: 2.5625rem ;
-  display: flex;
-  justify-content: space-around;
-  align-items: center  ;
-
-  height: 4.5rem;
-}
+/* OCUTAR MENU */
+/*====  NAVIGATION ============================ */
 
 
-#header .logo h1{
 
-  font-style: bold;
-  font-weight: 300;
 
-}
+
+/* toggle menu */
 
 /* ====HOME==== */
 
