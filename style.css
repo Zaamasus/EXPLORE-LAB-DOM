@@ -120,7 +120,7 @@ nav ul li a::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: var(--base-color);
+  background: var(--black-color);
 
   position: absolute;
   left: 0;
@@ -153,7 +153,7 @@ z-index: 1;
   opacity: 1;
   visibility: visible;
 
-  background: white;
+  background: var(--base-color-second);
 
   height: 100vh;
   width: 100vw;
@@ -176,7 +176,7 @@ nav.show ul.grid {
 
 /* toggle menu */
 .toggle {
-  z-index: 2;
+  z-index: 3;
   color: black;
   font-size: 1.5rem;
   cursor: pointer;
